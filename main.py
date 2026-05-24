@@ -8,5 +8,5 @@ cv2.imwrite(os.path.join('sigma_clone.png'),image)
 
 cv2.imshow("Clone", image)
 cv2.waitKey(0)
-
+cv2.destroyAllWindows()
 
